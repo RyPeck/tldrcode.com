@@ -729,6 +729,38 @@ body.landing #skel-layers-wrapper {
     }
 }
 
+.sticky header  {
+    background: #2a2a2a;
+    color: #bbb;
+    cursor: default;
+    top: 1.25em;
+    left: 0;
+    display: inline-block;
+    white-space: nowrap;
+    width: 100%;
+    z-index: 10000;
+    transition: all 1s ease;
+    position: fixed;
+    font-size: 1.5em;
+    line-height: 3em;
+    padding: none;
+    margin: none;
+}
+
+.sticky h2  {
+    font-size: inherit;
+    color: #bbb;
+    display: inline;
+    white-space: nowrap;
+}
+
+.sticky .byline  {
+    font-size: inherit;
+    color: #bbb;
+    display: inline;
+    white-space: nowrap;
+}
+
 #header {
     background: #2a2a2a;
     font-size: 10pt;
